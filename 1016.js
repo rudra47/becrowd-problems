@@ -1,4 +1,3 @@
-var lines = input.split('\n');
 var input = "30";
 var lines = input.split('\n');
 
