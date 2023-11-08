@@ -2,16 +2,16 @@
 var input = `2 16`;
 var lines = input.split(' ');
 
-let startDate = Number(lines[0]);
-let endDate   = Number(lines[1]);
+let startHour = Number(lines[0]);
+let endHour   = Number(lines[1]);
 let duration  = 0;
 
-if (endDate > startDate) {
-    duration = endDate - startDate;
-}else if (startDate === endDate) {
+if (endHour > startHour) {
+    duration = endHour - startHour;
+}else if (startHour === endHour) {
     duration = 24;
 }else{
-    duration = (24 - startDate) + endDate;
+    duration = (24 - startHour) + endHour;
 }
 
 console.log("O JOGO DUROU "+duration+" HORA(S)");
