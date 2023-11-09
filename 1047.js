@@ -1,5 +1,5 @@
 //Game Time With Minutes
-var input = `7 8 9 10`;
+var input = `7 10 8 9`;
 var lines = input.split(' ');
 
 let initialHour     = Number(lines[0]);
@@ -9,15 +9,27 @@ let finalMinute     = Number(lines[3]);
 let hourDuration    = 0;
 let minuteDuration  = 0;
 
-// if (endHour > startHour) {
-//     duration = endHour - startHour;
-// }else if (startHour === endHour) {
-//     duration = 24;
-// }else{
-//     duration = (24 - startHour) + endHour;
-// }
+if (finalHour > initialHour) {
+    hourDuration = finalHour - initialHour;
+}else if (initialHour === finalHour) {
+    hourDuration = 24;
+}else{
+    hourDuration = (24 - initialHour) + finalHour;
+}
 
-// console.log("O JOGO DUROU "+duration+" HORA(S)");
+hourDuration = initialMinute > finalMinute ? --hourDuration : hourDuration;
+
+if (finalMinute > initialMinute) {
+    minuteDuration = finalMinute - initialMinute;
+}else if (initialMinute === finalMinute) {
+    minuteDuration = 0;
+}else{
+    minuteDuration = (60 - initialMinute) + finalMinute;
+}
+
+
+
+console.log("O JOGO DUROU "+hourDuration+" HORA(S) E "+minuteDuration+" MINUTO(S)");
 
 //Problem: 
 
