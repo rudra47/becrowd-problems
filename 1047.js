@@ -27,8 +27,6 @@ if (finalMinute > initialMinute) {
     minuteDuration = (60 - initialMinute) + finalMinute;
 }
 
-
-
 console.log("O JOGO DUROU "+hourDuration+" HORA(S) E "+minuteDuration+" MINUTO(S)");
 
 //Problem: 
