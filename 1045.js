@@ -1,5 +1,5 @@
 //Triangle Types
-var input = `6.0 8.0 10.0`;
+var input = `7.0 5.0 7.0`;
 var lines = input.split(' ');
 
 let a = Number(lines[0]);

@@ -1,5 +1,5 @@
 //Game Time With Minutes
-var input = `7 10 8 9`;
+var input = `0 0 23 45`;
 var lines = input.split(' ');
 
 let initialHour     = Number(lines[0]);
@@ -9,25 +9,50 @@ let finalMinute     = Number(lines[3]);
 let hourDuration    = 0;
 let minuteDuration  = 0;
 
-if (finalHour > initialHour) {
-    hourDuration = finalHour - initialHour;
-}else if (initialHour === finalHour) {
-    hourDuration = 24;
-}else{
-    hourDuration = (24 - initialHour) + finalHour;
+hourDuration = finalHour - initialHour;
+if (hourDuration < 0) {
+    hourDuration = 24 + (finalHour - initialHour);
 }
 
-hourDuration = initialMinute > finalMinute ? --hourDuration : hourDuration;
-
-if (finalMinute > initialMinute) {
-    minuteDuration = finalMinute - initialMinute;
-}else if (initialMinute === finalMinute) {
-    minuteDuration = 0;
-}else{
-    minuteDuration = (60 - initialMinute) + finalMinute;
+minuteDuration = finalMinute - initialMinute;
+if (minuteDuration < 0) {
+    minuteDuration = 60 + (finalMinute - initialMinute);
+    hourDuration = hourDuration != 0 ? hourDuration - 1 : hourDuration;
 }
 
-console.log("O JOGO DUROU "+hourDuration+" HORA(S) E "+minuteDuration+" MINUTO(S)");
+if (initialHour === finalHour && initialMinute === finalMinute) {
+    console.log("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");
+}else{
+    console.log("O JOGO DUROU "+hourDuration+" HORA(S) E "+minuteDuration+" MINUTO(S)");
+}
+
+// if (finalHour > initialHour) {
+//     hourDuration = finalHour - initialHour;
+// }else if (initialHour === finalHour) {
+//     if (initialMinute === finalMinute) {
+//         hourDuration = 24;
+//     }else{
+//         hourDuration = 0;
+//     }
+// }else{
+//     hourDuration = (24 - initialHour) + finalHour;
+// }
+
+// hourDuration = initialMinute > finalMinute && initialHour !== finalHour ? --hourDuration : hourDuration;
+
+// if (finalMinute > initialMinute) {
+//     minuteDuration = finalMinute - initialMinute;
+// }else if (initialMinute === finalMinute) {
+//     minuteDuration = 0;
+// }else{
+//     minuteDuration = (60 - initialMinute) + finalMinute;
+// }
+
+// console.log("O JOGO DUROU "+hourDuration+" HORA(S) E "+minuteDuration+" MINUTO(S)");
+
+
+
+
 
 //Problem: 
 
