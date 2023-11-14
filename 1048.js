@@ -6,6 +6,17 @@ let salary = Number(lines[0]);
 let increasePercentage = 0;
 
 if (salary > 0) {
+    if (salary <= 400.00) {
+        increasePercentage = 15;
+    }else if(salary > 400.00 && salary <= 800.00){
+        increasePercentage = 12;
+    }else if(salary > 800.00 && salary <= 1200.00){
+        increasePercentage = 10;
+    }else if(salary > 1200.00 && salary <= 2000.00){
+        increasePercentage = 7;
+    }else{
+        increasePercentage = 4;
+    }
 
 }
     
