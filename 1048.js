@@ -18,6 +18,9 @@ if (salary > 0) {
         increasePercentage = 4;
     }
 
+    let increaseAmount = (salary * increasePercentage) / 100;
+    let newSalary = salary + increaseAmount;
+    
 }
     
 
