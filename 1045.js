@@ -1,5 +1,5 @@
 //Triangle Types
-var input = `6.0 8.0 10.0`;
+var input = `7.0 5.0 7.0`;
 var lines = input.split(' ');
 
 let a = Number(lines[0]);
@@ -51,7 +51,9 @@ if (a >= (b + c)) {
 
 
 //PROBLEM:
-// Read 3 double numbers (A, B and C) representing the sides of a triangle and arrange them in decreasing order, so that the side A is the biggest of the three sides. Next, determine the type of triangle that they can make, based on the following cases always writing an appropriate message:
+// Read 3 double numbers (A, B and C) representing the sides of a triangle and arrange them in decreasing order, so that the side 
+// A is the biggest of the three sides. Next, determine the type of triangle that they can make, based on the following cases always 
+// writing an appropriate message:
 // if A ≥ B + C, write the message: NAO FORMA TRIANGULO
 // if A2 = B2 + C2, write the message: TRIANGULO RETANGULO
 // if A2 > B2 + C2, write the message: TRIANGULO OBTUSANGULO
