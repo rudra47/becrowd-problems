@@ -28,9 +28,6 @@ Em percentual: ${increasePercentage} %`);
 }
     
 
-
-
-
 // PROBLEM : 
 // The company ABC decided to give a salary increase to its employees, according to the following 
 // table:
