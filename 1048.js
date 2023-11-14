@@ -21,6 +21,10 @@ if (salary > 0) {
     let increaseAmount = (salary * increasePercentage) / 100;
     let newSalary = salary + increaseAmount;
     
+    
+console.log(`Novo salario: ${newSalary.toFixed(2)}
+Reajuste ganho: ${increaseAmount.toFixed(2)}
+Em percentual: ${increasePercentage} %`);
 }
     
 
