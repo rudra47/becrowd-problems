@@ -5,7 +5,9 @@ var lines = input.split('/n');
 let salary = Number(lines[0]);
 let increasePercentage = 0;
 
+if (salary > 0) {
 
+}
     
 
 
