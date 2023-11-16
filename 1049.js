@@ -28,7 +28,7 @@ if (word1 === "vertebrado") {
             console.log("pulga");
         }else{
             console.log("lagarta");
-        }
+        } 
     }
 }
 
