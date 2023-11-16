@@ -6,7 +6,10 @@ let number = Number(lines[0]);
 
 if (number === 61) {
     console.log("Brasilia");
+}else if(number === 71){
+    console.log("Salvador");
 }
+
 
 // Read an integer number that is the code number for phone dialing. Then, print the destination 
 // according to the following table:
