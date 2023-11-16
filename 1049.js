@@ -22,6 +22,20 @@ if (word1 === "vertebrado") {
             console.log("vaca");
         }
     }
+}else{
+    if (word2 === "inseto") {
+        if (word3 === "hematofago") {
+            console.log("pulga");
+        }else{
+            console.log("lagarta");
+        }
+    }else{
+        if (word3 === "hematofago") {
+            console.log("sanguessuga");
+        }else{
+            console.log("minhoca");
+        }
+    }
 }
 
 
