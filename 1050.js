@@ -26,6 +26,8 @@ else if(number === 27){
 }
 else if(number === 31){
     console.log("Belo Horizonte");
+}else{
+    console.log("DDD nao cadastrado");
 }
 
 // Read an integer number that is the code number for phone dialing. Then, print the destination 
