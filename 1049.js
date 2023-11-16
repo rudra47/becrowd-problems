@@ -29,12 +29,6 @@ if (word1 === "vertebrado") {
         }else{
             console.log("lagarta");
         }
-    }else{
-        if (word3 === "hematofago") {
-            console.log("sanguessuga");
-        }else{
-            console.log("minhoca");
-        }
     }
 }
 
