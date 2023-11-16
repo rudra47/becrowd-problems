@@ -1,12 +1,42 @@
 //Animal
-var input = `vertebrado
-mamifero
+var input = `invertebrado
+anelideo
 onivoro`;
 var lines = input.split('\n');
 
 let word1 = lines[0];
 let word2 = lines[1];
 let word3 = lines[2];
+
+if (word1 === "vertebrado") {
+    if (word2 === "ave") {
+        if (word3 === "carnivoro") {
+            console.log("aguia");
+        }else{
+            console.log("pomba");
+        }
+    }else{
+        if (word3 === "onivoro") {
+            console.log("homen");
+        }else{
+            console.log("vaca");
+        }
+    }
+}else{
+    if (word2 === "inseto") {
+        if (word3 === "hematofago") {
+            console.log("pulga");
+        }else{
+            console.log("lagarta");
+        }
+    }else{
+        if (word3 === "hematofago") {
+            console.log("sanguessuga");
+        }else{
+            console.log("minhoca");
+        }
+    }
+}
 
 
 
