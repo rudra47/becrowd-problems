@@ -15,6 +15,9 @@ else if(number === 11){
 else if(number === 21){
     console.log("Rio de Janeiro");
 }
+else if(number === 32){
+    console.log("Juiz de Fora");
+}
 
 
 // Read an integer number that is the code number for phone dialing. Then, print the destination 
