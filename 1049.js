@@ -1,6 +1,6 @@
 //Animal
-var input = `invertebrado
-anelideo
+var input = `vertebrado
+mamifero
 onivoro`;
 var lines = input.split('\n');
 
@@ -17,7 +17,7 @@ if (word1 === "vertebrado") {
         }
     }else{
         if (word3 === "onivoro") {
-            console.log("homen");
+            console.log("homem");
         }else{
             console.log("vaca");
         }
