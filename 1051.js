@@ -1,51 +1,75 @@
 //TAXES
-var input = `4520.00`;
+var input = `3002.00`;
 var lines = input.split('\n');
 
 let salary = Number(lines[0]);
-let totalTax = 0;
 
-let due = salary - 2000.00;
-if (salary < 2000.00) {
+if (salary <= 2000.00) {
     console.log("Isento");
+}else if (salary >= 2000.01 && salary <= 3000.00) {
+    let tax = (salary - 2000.00) * .08;
+    console.log('R$ ' + tax.toFixed(2));
+}else if (salary >= 3000.01 && salary <= 4500.00) {
+    let tax = (salary - 3000.00) * .18 + (1000 * .08);
+    console.log('R$ ' + tax.toFixed(2));
+}else if(salary >= 4500.00){
+    let tax = (salary - 4500.00) * .28 + (1500.00 * .18) + (1000.00 * .08);
+    console.log('R$ ' + tax.toFixed(2));
 }
 
-if(salary > 2000.00 && due > 0){
-    let check = due - 1000;
-    let tax = 0;
+// -------------------------------------------------------------------------
+// SOLUTION - 2 START
+// -------------------------------------------------------------------------
 
-    if (check < 0){
-        tax = due * .08;
-    }else{
-        tax = 1000 * .08;
-    }
-    totalTax = totalTax + tax;
+// let totalTax = 0;
 
-    due = check;
-}
+// let due = salary - 2000.00;
+// if (salary < 2000.00) {
+//     console.log("Isento");
+// }
 
-if (salary > 3000.00 && due > 0) {
-    let check = due - 1500;
-    let tax = 0;
+// if(salary > 2000.00 && due > 0){
+//     let check = due - 1000;
+//     let tax = 0;
 
-    if (check < 0){
-        tax = due * .18;
-    }else{
-        tax = 1500 * .18;
-    }
-    totalTax = totalTax + tax;
-    due = check;
-}
+//     if (check < 0){
+//         tax = due * .08;
+//     }else{
+//         tax = 1000 * .08;
+//     }
+//     totalTax = totalTax + tax;
 
-if (salary > 4500.00 && due > 0) {
+//     due = check;
+// }
 
-    let tax = due * .28;
-    totalTax = totalTax + tax;
-}
+// if (salary > 3000.00 && due > 0) {
+//     let check = due - 1500;
+//     let tax = 0;
 
-if (totalTax != 0) {
-    console.log('R$ ' + totalTax.toFixed(2));
-}
+//     if (check < 0){
+//         tax = due * .18;
+//     }else{
+//         tax = 1500 * .18;
+//     }
+//     totalTax = totalTax + tax;
+//     due = check;
+// }
+
+// if (salary > 4500.00 && due > 0) {
+
+//     let tax = due * .28;
+//     totalTax = totalTax + tax;
+// }
+
+// if (totalTax != 0) {
+//     console.log('R$ ' + totalTax.toFixed(2));
+// }
+
+// -------------------------------------------------------------------------
+// SOLUTION - 2 END
+// -------------------------------------------------------------------------
+
+
 
 // In an imaginary country called Lisarb, all the people are very happy to pay their taxes because they know that doesn’t exist 
 // corrupt politicians and the taxes are used to benefit the population, without any misappropriation. The currency of this country 
