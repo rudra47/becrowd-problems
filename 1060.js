@@ -1,4 +1,4 @@
-//MONTH
+//POSITIVE NUMBER
 var input = `7
 -5
 6
