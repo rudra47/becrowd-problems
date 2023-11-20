@@ -1,6 +1,9 @@
 //EVEN NUMBER
 for (let index = 1; index <= 100; index++) {
-
+    const remainder = index % 2;
+    if (!remainder) {
+        console.log(index);
+    }
 }
 
 // Write a program that prints all even numbers between 1 and 100, including them if it is the case.
