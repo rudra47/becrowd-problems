@@ -7,6 +7,13 @@ var input = `7
 12`;
 var lines = input.split('\n');
 
+let count = 0;
+
+for (let index = 0; index < lines.length; index++) {
+    if (lines[index] > 0) {
+        ++count;
+    }
+}
 
 
 
