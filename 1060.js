@@ -15,6 +15,7 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
+console.log(count + " valores positivos");
 
 
 // Write a program that reads 6 numbers. These numbers will only be positive or negative (disregard null values). Print the total 
