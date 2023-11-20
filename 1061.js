@@ -1,4 +1,4 @@
-//POSITIVE NUMBER
+//EVENT TIME
 var input = `7
 -5
 6
