@@ -19,6 +19,8 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
+let avg = sumOfPositiveNum / countOfPositiveNum;
+
 
 
 // Read 6 values that can be floating point numbers. After, print how many of them were positive. In the next line, print the 
