@@ -1,13 +1,13 @@
 //EVENT TIME
-var input = `5
+var input = `Dia 5
 08 : 12 : 23
-9
+Dia 9
 06 : 13 : 23`;
 var lines = input.split('\n');
 
-let startDay = Number(lines[0]);
+let startDay = Number(lines[0].split(' ')[1]);
 let startTime = lines[1].split(":");
-let endDay = Number(lines[2]);
+let endDay = Number(lines[2].split(' ')[1]);
 let endTime = lines[3].split(":");
 let totalDay = 0;
 let totalHour = 0;
@@ -41,7 +41,7 @@ if (totalSecond < 0) {
         totalMinute = 60 + totalMinute;
     }
 }
-totalDay=totalDay ? totalDay : 0;
+
 console.log(`${totalDay} dia(s)
 ${totalHour} hora(s)
 ${totalMinute} minuto(s)
