@@ -7,6 +7,9 @@ var input = `7
 12`;
 var lines = input.split('\n');
 
+let countOfPositiveNum = 0;
+let sumOfPositiveNum = 0;
+
 
 // Read 6 values that can be floating point numbers. After, print how many of them were positive. In the next line, print the 
 // average of all positive values typed, with one digit after the decimal point.
