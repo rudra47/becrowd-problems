@@ -11,7 +11,12 @@ let countOfPositiveNum = 0;
 let sumOfPositiveNum = 0;
 
 for (let index = 0; index < lines.length; index++) {
-    
+    const element = Number(lines[index]);
+
+    if (element > 0) {
+        countOfPositiveNum++;
+        sumOfPositiveNum = sumOfPositiveNum + element;
+    }
 }
 
 
