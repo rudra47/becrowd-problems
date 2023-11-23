@@ -6,9 +6,13 @@ var input = `-5
 12`;
 var lines = input.split('\n');
 
+var countPositiveNum = 0;
+var countNegativeNum = 0;
+var countEvenNum = 0;
+var countOddNum = 0;
 
 
-// Make a program that reads five integer values. Count how many   of these values are even, odd, positive and negative. Print these
+// Make a program that reads five integer values. Count how many of these values are even, odd, positive and negative. Print these
 // information like following example.
 
 // Input
