@@ -11,6 +11,24 @@ var countNegativeNum = 0;
 var countEvenNum = 0;
 var countOddNum = 0;
 
+for (let index = 0; index < lines.length; index++) {
+    let value = Number(lines[index]);
+    if (value !== 0) {
+        if (value < 0) {
+            countNegativeNum++;
+        }else{
+            countPositiveNum++;
+        }
+    }
+    
+    if ((parseInt(lines[index]) % 2) === 0) {
+        countEvenNum++;
+    }
+    if ((parseInt(lines[index]) % 2) === 1){
+        countOddNum++;
+    }
+}
+
 
 // Make a program that reads five integer values. Count how many of these values are even, odd, positive and negative. Print these
 // information like following example.
