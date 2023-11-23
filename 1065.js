@@ -1,4 +1,4 @@
-//POSITIVE AND AVERAGE
+//EVEN BETWEEN FIVE NUMBERS
 var input = `7
 -5
 6
@@ -6,18 +6,17 @@ var input = `7
 12`;
 var lines = input.split('\n');
 
-let countOfEvenNum = 0;
+var countOfEvenNum = 0;
 
 for (let index = 0; index < lines.length; index++) {
-    const value = Number(lines[index]);
-    let reminder = value % 2;
+    let value = parseInt(lines[index]);
 
-    if (!reminder) {
+    if ((value % 2) === 0) {
         countOfEvenNum++;
     }
 }
 
-console.log(`${countOfEvenNum} valores pares`);
+console.log(`${countOfEvenNum} valores pares`); 
 
 
 // Make a program that reads five integer values. Count how many of these values ​​are even and  print this information like the .
