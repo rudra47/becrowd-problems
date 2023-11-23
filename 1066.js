@@ -1,4 +1,10 @@
 //Even, Odd, Positive and Negative
+var input = `-5
+0
+-3
+-4
+12`;
+var lines = input.split('\n');
 
 
 
