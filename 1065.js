@@ -1,4 +1,4 @@
-//POSITIVE AND AVERAGE
+//EVEN BETWEEN FIVE NUMBERS
 var input = `7
 -5
 6
@@ -6,13 +6,16 @@ var input = `7
 12`;
 var lines = input.split('\n');
 
-let countOfEvenNum = 0;
+var countOfEvenNum = 0;
 
 for (let index = 0; index < lines.length; index++) {
-    const value = Number(lines[index]);
-    let reminder = value % 2;
+    let value = parseInt(lines[index]);
 
-    if (!reminder) {
+    if (value < 0) {
+        value = value * -1;
+    }
+
+    if ((value % 2) === 0) {
         countOfEvenNum++;
     }
 }
