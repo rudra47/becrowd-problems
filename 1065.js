@@ -11,10 +11,6 @@ var countOfEvenNum = 0;
 for (let index = 0; index < lines.length; index++) {
     let value = parseInt(lines[index]);
 
-    if (value < 0) {
-        value = value * -1;
-    }
-
     if ((value % 2) === 0) {
         countOfEvenNum++;
     }
