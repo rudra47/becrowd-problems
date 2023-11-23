@@ -16,7 +16,7 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
-console.log(`${countOfEvenNum} valores pares`);
+console.log(`${countOfEvenNum} valores pares`); 
 
 
 // Make a program that reads five integer values. Count how many of these values ​​are even and  print this information like the .
