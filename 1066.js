@@ -29,6 +29,11 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
+console.log(`${countEvenNum} valor(es) par(es)
+${countOddNum} valor(es) impar(es)
+${countPositiveNum} valor(es) positivo(s)
+${countNegativeNum} valor(es) negativo(s)`); 
+
 
 // Make a program that reads five integer values. Count how many of these values are even, odd, positive and negative. Print these
 // information like following example.
