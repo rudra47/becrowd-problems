@@ -2,7 +2,11 @@
 var input = `8`;
 var lines = input.split('\n');
 
-
+let number = Number(lines[0]);
+  
+for (let index = 1; index <= 12; index++) {
+    
+}
 
 
 // Read an integer value X and print the 6 consecutive odd numbers from X, a value per line, including X if it is the case.
