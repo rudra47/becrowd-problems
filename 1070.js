@@ -5,7 +5,11 @@ var lines = input.split('\n');
 let number = Number(lines[0]);
   
 for (let index = 1; index <= 12; index++) {
-    
+    let reminder = number % 2;
+    if (reminder !== 0) {
+        console.log(number);
+    }
+    ++number;
 }
 
 
