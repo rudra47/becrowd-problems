@@ -8,7 +8,10 @@ let number2 = Number(lines[1]);
 let sum     = 0;
 
 for (let index = ++number2; index < number1; ++index) {
-     
+    let reminder = index % 2;
+    if (reminder !== 0) {
+        sum = sum + index;
+    }  
 }
 
 console.log(sum);
