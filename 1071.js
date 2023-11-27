@@ -1,17 +1,14 @@
-//SIX ODD NUMBERS
-var input = `6
--5`;
+//SUM OF CONSECUTIVE ODD NUMBERS I
+var input = `12
+12`;
 var lines = input.split('\n');
 
 let number1 = Number(lines[0]);
 let number2 = Number(lines[1]);
 let sum     = 0;
 
-for (let index = number2; index < number1; index++) {
-    let reminder = index % 2;
-    if (reminder !== 0) {
-        sum = sum + index;
-    }   
+for (let index = ++number2; index < number1; ++index) {
+     
 }
 
 console.log(sum);
