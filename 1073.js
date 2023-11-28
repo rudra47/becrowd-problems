@@ -1,4 +1,4 @@
-//INTERVAL 2
+//Even Square
 var input = `6`;
 var lines = input.split('\n');
 

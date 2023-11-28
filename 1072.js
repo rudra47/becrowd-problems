@@ -48,7 +48,3 @@ ${countOut} out`);
 //Output Sample
 // 2 in
 // 2 out
-
-// EKAGROTA - concentration
-// SAHOS -the courage
-// OVIGGOTA - experience
