@@ -31,7 +31,7 @@ ${countOut} out`);
 
 // Input
 // The first line of input is an integer N (N < 10000), that indicates the total number of test cases.
-// Each case is an integer number X (-10 to the power 7 < X < 10 to the power 7).
+// Each case is an integer number X (-10^7 < X < 10^7).
 
  
 
