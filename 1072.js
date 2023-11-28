@@ -11,8 +11,11 @@ let countIn = 0;
 let countOut = 0;
 
 if (n < 10000) {
-    
+    for (let index = 1; index <= n; index++) {
+        
+    }
 }
+
 
 
 // Read an integer N. This N will be the number of integer numbers X that will be read.
