@@ -12,7 +12,11 @@ let countOut = 0;
 
 if (n < 10000) {
     for (let index = 1; index <= n; index++) {
-        
+        if (lines[index] >= 10 && lines[index] <= 20) {
+            countIn++;
+        }else{
+            countOut++
+        }
     }
 }
 
