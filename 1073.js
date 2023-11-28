@@ -5,7 +5,11 @@ var lines = input.split('\n');
 let n = lines[0];
 
 if (n>5 && n<2000) {
-    
+    for (let index = 1; index <= n; index++) {
+        if (index % 2 === 0) {
+            console.log(`${index}^2 = ${index * index}`);
+        }
+    }
 }
 
 
