@@ -20,6 +20,8 @@ if (n < 10000) {
     }
 }
 
+console.log(`${countIn} in
+${countOut} out`);
 
 
 // Read an integer N. This N will be the number of integer numbers X that will be read.
