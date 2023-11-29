@@ -4,6 +4,9 @@ var lines = input.split('\n');
 
 let n = Number(lines[0]);
 
+if (n > 1 && n < 1000) {
+    
+}
 
 
 // Read an integer N (2 < N < 1000). Print the multiplication table of N.
