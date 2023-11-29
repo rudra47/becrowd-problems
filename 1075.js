@@ -2,7 +2,11 @@
 var input = `13`;
 var lines = input.split('\n');
 
-let n = lines[0];
+let n = Number(lines[0]);
+
+if (n < 10000) {
+    
+}
 
 
 // Read an integer N. Print all numbers between 1 and 10000, which divided by N will give the rest = 2.
