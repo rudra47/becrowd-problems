@@ -6,7 +6,9 @@ let n = Number(lines[0]);
 
 if (n < 10000) {
     for (let index = 1; index <= 10000; index++) {
-        
+        if (index % n === 2) {
+            console.log(index);
+        }
     }
 }
 
