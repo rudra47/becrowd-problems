@@ -6,7 +6,7 @@ let n = Number(lines[0]);
 
 if (n > 1 && n < 1000) {
     for (let index = 1; index <= 10; index++) {
-        
+        console.log(`${index} x ${n} = ${index * n}`);
     }
 }
 
