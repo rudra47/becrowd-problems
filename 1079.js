@@ -1,4 +1,4 @@
-//Remaining 2
+//Weighted Average
 var input = `3
 6.5 4.3 6.2
 5.1 4.2 8.1
@@ -8,6 +8,13 @@ var lines = input.split('\n');
 
 let n = Number(lines[0]);
 
+for (let index = 1; index <= n; index++) {
+    let caseNumber = lines[index].split(' ');
+    let totalWeight = (Number(caseNumber[0]) * 2) + (Number(caseNumber[1]) * 3) + (Number(caseNumber[2]) * 5);
+    let avgWeight = totalWeight / (2 + 3 + 5);
+    
+    console.log(avgWeight.toFixed(1));
+}
 
 
 // Read an integer N, which represents the number of following test cases. Each test case consists of three floating-point numbers, 
