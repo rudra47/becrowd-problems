@@ -1,4 +1,4 @@
-//Weighted Average
+//Highest and Position
 var input = `500
 10
 1
