@@ -16,6 +16,8 @@ for (let index = 0; index < 5; index++) {
     }
 }
 
+console.log(memory);
+console.log(position);
 
 // Read 100 integer numbers. Print the highest read value and the input position.
 
