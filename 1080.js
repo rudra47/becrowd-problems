@@ -7,6 +7,16 @@ var input = `500
 
 var lines = input.split('\n');
 
+let memory = 0;
+let position = 0;
+for (let index = 0; index < 5; index++) {
+    if (memory < Number(lines[index])) {
+        position = index + 1;
+        memory = Number(lines[index]);
+    }
+}
+
+
 // Read 100 integer numbers. Print the highest read value and the input position.
 
 // Input
