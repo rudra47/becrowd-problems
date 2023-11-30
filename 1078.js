@@ -1,4 +1,4 @@
-//Remaining 2
+//Multiplication Table
 var input = `140`;
 var lines = input.split('\n');
 
