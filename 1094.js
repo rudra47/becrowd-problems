@@ -26,9 +26,14 @@ for (let index = 1; index <= n; index++) {
     }else if (animal[1] === "R"){
         rat += Number(animal[0]);
     }else if (animal[1] === "S"){ 
-        frog += Number(animal[0]); 
+        frog += Number(animal[0]);
     }
 }
+
+let totalAnimalCount = rabbit + rat + frog;
+let rabbitAverage = (rabbit * 100) / totalAnimalCount;
+let ratAverage = (rat * 100) / totalAnimalCount;
+let frogAverage = (frog * 100) / totalAnimalCount;
 
 
 
