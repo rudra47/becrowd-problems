@@ -26,7 +26,7 @@ for (let index = 1; index <= n; index++) {
     }else if (animal[1] === "R"){
         rat += Number(animal[0]);
     }else if (animal[1] === "S"){ 
-        frog += Number(animal[0]);
+        frog += Number(animal[0]); 
     }
 }
 
