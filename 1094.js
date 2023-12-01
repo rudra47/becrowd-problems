@@ -35,6 +35,13 @@ let rabbitAverage = (rabbit * 100) / totalAnimalCount;
 let ratAverage = (rat * 100) / totalAnimalCount;
 let frogAverage = (frog * 100) / totalAnimalCount;
 
+console.log(`Total: ${totalAnimalCount} cobaias
+Total de coelhos: ${rabbit}
+Total de ratos: ${rat}
+Total de sapos: ${frog}
+Percentual de coelhos: ${rabbitAverage.toFixed(2)} %
+Percentual de ratos: ${ratAverage.toFixed(2)} %
+Percentual de sapos: ${frogAverage.toFixed(2)} %`);
 
 
 
