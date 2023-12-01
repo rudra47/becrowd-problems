@@ -12,6 +12,23 @@ var input = `10
 14 R`; // here will be 100 input. but I have tested with 5
 
 var lines = input.split('\n');
+let n = Number(lines[0]);
+
+let rabbit = 0;
+let rat = 0;
+let frog = 0;
+
+for (let index = 1; index <= n; index++) {
+    let animal = lines[index].split(' ');
+    
+    if (animal[1] === "C") {
+        rabbit += Number(animal[0]);
+    }else if (animal[1] === "R"){
+        rat += Number(animal[0]);
+    }else if (animal[1] === "S"){ 
+        frog += Number(animal[0]);
+    }
+}
 
 
 
