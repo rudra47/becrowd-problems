@@ -1,7 +1,14 @@
 // Sequence IJ 4
 
 for (let i = 0; i <= 2; i += 0.2) {
-   
+   for (let j = 1; j <= 3; j++) {
+      // console.log(i.toFixed(1) % 2 === 0);
+      if (Number.isInteger(i) || i.toFixed(1) % 2 === 0) {   
+         console.log(`I=${i} J=${i+j}`);
+      }else{
+         console.log(`I=${i.toFixed(1)} J=${(i+j).toFixed(1)}`);
+      }
+   }
 }
 
 
