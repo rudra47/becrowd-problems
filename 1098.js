@@ -12,6 +12,7 @@ for (let i = 0; i <= 2; i += 0.2) {
 }
 
 
+
 // Make a program that prints the sequence like the following example.
 
 // Input
