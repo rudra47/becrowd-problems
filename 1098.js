@@ -2,15 +2,13 @@
 
 for (let i = 0; i <= 2; i += 0.2) {
    for (let j = 1; j <= 3; j++) {
-      // console.log(i.toFixed(1) % 2 === 0);
-      if (Number.isInteger(i) || i.toFixed(1) % 2 === 0) {   
-         console.log(`I=${i} J=${i+j}`);
+      if (Number.isInteger(i) || i.toFixed(1) % 1 === 0) {   
+         console.log(`I=${Math.round(i)} J=${Math.round(i+j)}`);
       }else{
          console.log(`I=${i.toFixed(1)} J=${(i+j).toFixed(1)}`);
       }
    }
 }
-
 
 
 // Make a program that prints the sequence like the following example.
