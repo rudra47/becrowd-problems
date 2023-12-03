@@ -3,7 +3,21 @@ let input = `3
 -8 0
 0 8`;
 let lines = input.split('\n');
+let n = Number(lines[0]);
 
+for (let index = 1; index <= n; index++) {
+    let pair = lines[index].split(' ');
+    let x = Number(pair[0]);
+    let y = Number(pair[1]);
+
+    let dividend = x / y;
+
+    if (y) {
+        console.log(dividend.toFixed(1));
+    }else{
+        console.log('divisao impossivel');
+    }
+}
 
 
 // Write a program that read two numbers X and Y and print the result of dividing the X by Y. If it's not possible, print the message "divisao impossivel".
