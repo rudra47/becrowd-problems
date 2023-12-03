@@ -6,7 +6,10 @@ let input = `5 4
 var lines = input.split('\n');
 
 for (let index = 0; index < lines.length; index++) {
-    
+    let pair = lines[index].split(' ');
+    let a = Number(pair[0]);
+    let b = Number(pair[1]);
+
 }
 
 
