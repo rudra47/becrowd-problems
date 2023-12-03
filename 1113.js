@@ -10,6 +10,13 @@ for (let index = 0; index < lines.length; index++) {
     let a = Number(pair[0]);
     let b = Number(pair[1]);
 
+    if (a < b) {
+        console.log('Crescente');
+    }else if (a > b){
+        console.log('Decrescente');
+    }else{
+        break;
+    }
 }
 
 
