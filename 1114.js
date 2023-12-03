@@ -1,10 +1,13 @@
+//Fixed Password
 let input = `2200
 1020
 2022
 2002`;
-let lines = input.split('/n');
+let lines = input.split('\n');
 
-
+for (let index = 0; index < lines.length; index++) {
+    
+}
 
 
 // Write a program that keep reading a password until it is valid. For each wrong password read, write the message "Senha inválida". When the password is typed 
