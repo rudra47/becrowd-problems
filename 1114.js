@@ -6,7 +6,14 @@ let input = `2200
 let lines = input.split('\n');
 
 for (let index = 0; index < lines.length; index++) {
+    let testCase = Number(lines[index]);
     
+    if (testCase !== 2002) {
+        console.log("Senha Invalida");
+    }else{
+        console.log('Acesso Permitido');
+        break;
+    }
 }
 
 
