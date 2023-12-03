@@ -19,7 +19,6 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
-
 // Read an undetermined number of pairs of integer values. Write a message for each pair indicating if this two numbers are in 
 // ascending or descending order.
 
