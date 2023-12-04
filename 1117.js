@@ -5,7 +5,11 @@ let input = `-3.5
 10.0`;
 let lines = input.split('\n');
 
-
+let count = 0;
+let totalScore = 0;
+for (let index = 0; index < lines.length; index++) {
+    
+}
 
 // Write a program that reads two scores of a student. Calculate and print the average of these scores. Your program must accept just valid scores [0..10]. Each 
 // score must be validated separately.
