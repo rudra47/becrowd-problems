@@ -13,6 +13,7 @@ let lines = input.split('\n');
 let count = 0;
 let totalScore = 0;
 for (let index = 0; index < lines.length; index++) {
+    let score = lines[index];
     
 }
 
