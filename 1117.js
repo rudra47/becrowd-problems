@@ -15,6 +15,9 @@ for (let index = 0; index < lines.length; index++) {
         count++;
         totalScore += Number(lines[index]);
     }
+    if(count === 2 ){
+        break;
+    }
 }
 
 // Write a program that reads two scores of a student. Calculate and print the average of these scores. Your program must accept just valid scores [0..10]. Each 
