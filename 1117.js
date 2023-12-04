@@ -33,12 +33,13 @@ console.log("media = "+average.toFixed(2));
 // After the input of two valid scores, the message "media = " must be printed followed by the average of the student. The average must be printed with 2 numbers 
 // after the decimal point.
 
-// Input Sample	Output Sample
+// Input Sample
 // -3.5
 // 3.5
 // 11.0
 // 10.0
 
+// Output Sample
 // nota invalida
 // nota invalida
 // media = 6.75
