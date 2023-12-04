@@ -12,7 +12,9 @@ let lines = input.split('\n');
 
 let count = 0;
 let totalScore = 0;
-
+for (let index = 0; index < lines.length; index++) {
+    
+}
 
 
 // Write an program to read two scores of a student. Calculate and print the semester average. The program must accept only valid scores (a score must fit in the range 
