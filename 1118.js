@@ -44,7 +44,7 @@ for (let index = 0; index < lines.length; index++) {
 
 // The output average must be printed with 2 digits after the decimal point.
 
-// Input Sample	Output Sample
+// Input Sample	
 // -3.5
 // 3.5
 // 11.0
@@ -55,6 +55,7 @@ for (let index = 0; index < lines.length; index++) {
 // 9.0
 // 2
 
+//Output Sample
 // nota invalida
 // nota invalida
 // media = 6.75
