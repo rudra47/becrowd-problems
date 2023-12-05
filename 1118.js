@@ -15,6 +15,15 @@ let totalScore = 0;
 for (let index = 0; index < lines.length; index++) {
     let score = lines[index];
     
+    if (score<0 || score>10) {
+        console.log('nota invalida');
+    }else{
+        count++;
+        totalScore += Number(lines[index]);
+    }
+    if(count === 2 ){
+        break;
+    }
 }
 
 
@@ -35,7 +44,7 @@ for (let index = 0; index < lines.length; index++) {
 
 // The output average must be printed with 2 digits after the decimal point.
 
-// Input Sample	Output Sample
+// Input Sample	
 // -3.5
 // 3.5
 // 11.0
@@ -46,6 +55,7 @@ for (let index = 0; index < lines.length; index++) {
 // 9.0
 // 2
 
+//Output Sample
 // nota invalida
 // nota invalida
 // media = 6.75
