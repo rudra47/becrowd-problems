@@ -10,21 +10,54 @@ let input = `-3.5
 2`;
 let lines = input.split('\n');
 
-let count = 0;
+// let count = 0;
 let totalScore = 0;
+let x = 0;
+let average = 0;
+
 for (let index = 0; index < lines.length; index++) {
     let score = lines[index];
+    let result = 0;
     
     if (score<0 || score>10) {
         console.log('nota invalida');
     }else{
-        count++;
-        totalScore += Number(lines[index]);
+        result = calculate(score);
     }
-    if(count === 2 ){
-        break;
+    // console.log(score);
+    // break;
+
+    if (result === 2) {
+        console.log('novo calculo (1-sim 2-nao)');
+        let x = score;
+        calculate(score)
     }
 }
+    // for(l=0;l< 100;l++){
+    //     x = score;
+    //     console.log("novo calculo (1-sim 2-nao)");
+    //     if(x==1 || x == 2)break;
+    // }
+    // if(x==1)continue;
+    // else if(x==2)break;
+let count=0;
+function calculate(score) {
+    let average = 0;
+    count++;
+
+    totalScore += Number(score);
+
+    if(count === 2 ){
+        average = totalScore/2;
+        console.log("media = "+average.toFixed(2));
+    }
+    // console.log('hello');
+    return count;
+}
+
+// if(x==1)continue;
+// else if(x==2)break;
+
 
 
 // Write an program to read two scores of a student. Calculate and print the semester average. The program must accept only valid scores (a score must fit in the range 
