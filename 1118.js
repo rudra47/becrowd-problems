@@ -17,7 +17,22 @@ score = input.split("\n").map(Number);
 x = 0;
 
 for (i = 0; i < score.length; i++) {
-    
+    if (score[i] >= 0 && score[i] <= 10) {
+        x++;
+        if (x === 1) {
+            n1 = score[i];
+        }
+        if (x === 2) {
+            n2 = score[i];
+            average = (n1 + n2) / 2;
+            console.log("media = " + average.toFixed(2))
+        }
+        if (x > 2 && score[i] === 2) {
+            console.log("novo calculo (1-sim 2-nao)");
+            break;
+        }
+    }
+
 }
 
 // Write an program to read two scores of a student. Calculate and print the semester average. The program must accept only valid scores (a score must fit in the range
