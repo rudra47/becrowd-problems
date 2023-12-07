@@ -32,7 +32,10 @@ for (i = 0; i < score.length; i++) {
             break;
         }
     }
-
+    if (x < 2 && (score[i] > 10 || score[i]<0)) {
+        console.log("nota invalida");
+    }
+    
 }
 
 // Write an program to read two scores of a student. Calculate and print the semester average. The program must accept only valid scores (a score must fit in the range
