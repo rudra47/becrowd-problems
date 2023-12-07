@@ -35,6 +35,9 @@ for (i = 0; i < score.length; i++) {
     if (x < 2 && (score[i] > 10 || score[i]<0)) {
         console.log("nota invalida");
     }
+    if (x > 2) {
+        console.log("novo calculo (1-sim 2-nao)");
+    }
     
 }
 
