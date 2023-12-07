@@ -71,7 +71,7 @@ for (i = 0; i < score.length; i++) {
 // 9.0
 // 2
 
-//Output Sample
+// Output Sample
 // nota invalida
 // nota invalida
 // media = 6.75
