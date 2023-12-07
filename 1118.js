@@ -16,6 +16,10 @@ let score, x, n1, n2, average;
 score = input.split("\n").map(Number);
 x = 0;
 
+for (i = 0; i < score.length; i++) {
+    
+}
+
 // Write an program to read two scores of a student. Calculate and print the semester average. The program must accept only valid scores (a score must fit in the range
 // [0.10]). Each score must be validated separately.
 
