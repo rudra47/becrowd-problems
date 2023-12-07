@@ -10,8 +10,6 @@ let input = `-3.5
 9.0
 2`;
 
-let lines = input.split('\n');
-
 let score, x, n1, n2, average;
 score = input.split("\n").map(Number);
 x = 0;
