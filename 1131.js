@@ -30,6 +30,9 @@ for (i = 0; i < lines.length; i++) {
         console.log('Novo grenal (1-sim 2-nao)');
     }
 
+    if(Number(num[0]) === 2 && num.length != 2){
+        break;
+    }
 }
 
 
