@@ -15,7 +15,8 @@ let draw = 0;
 let num;
 
 for (i = 0; i < lines.length; i++) {
-    
+    num = lines[i].split(' ');
+
 }
 
 
