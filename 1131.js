@@ -17,6 +17,19 @@ let num;
 for (i = 0; i < lines.length; i++) {
     num = lines[i].split(' ');
 
+    if (num.length === 2) {
+        grenalCount++;
+
+        if (Number(num[0]) > Number(num[1])) {
+            interWon++;
+        }else if(Number(num[0]) < Number(num[1])) {
+            gremioWon++;
+        }else{
+            draw++;
+        }
+        console.log('Novo grenal (1-sim 2-nao)');
+    }
+
 }
 
 
