@@ -35,6 +35,18 @@ for (i = 0; i < lines.length; i++) {
     }
 }
 
+console.log(`${grenalCount} grenais
+Inter:${interWon}
+Gremio:${gremioWon}
+Empates:${draw}`);
+
+if (interWon > gremioWon) {
+    console.log('Inter venceu mais');
+}else if (interWon < gremioWon) {
+    console.log('Gremio venceu mais');
+}else{
+    console.log('Não houve vencedor');
+}
 
 // The Federação Gaúcha de Futebol invited you to write a program to present a statistical result of several GRENAIS. Write a program that read the number of goals scored by Inter 
 // and the number of goals scored by Gremio in a GRENAL. Write the message "Novo grenal (1-sim 2-nao)" and request a response. If the answer is 1, two new numbers must be read 
