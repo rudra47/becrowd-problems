@@ -12,6 +12,7 @@ for (let i = Number(lines[0]); i <= Number(lines[1]); i++) {
     }
 }
 
+console.log(sum);
 
 // Write a program that reads two integer numbers X and Y and calculate the sum of all number not divisible by 13 between them, including both.
 
