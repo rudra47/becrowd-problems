@@ -15,6 +15,12 @@ for (let i = 0; i < lines.length; i++) {
    if (m <= 0 || n <= 0) 
       break;
 
+   if (n>m) {
+      let reminder = m;
+      m = n;
+      n = reminder;
+   }
+
 }
 
 // Read an undetermined number of pairs values M and N (stop when any of these values is less or equal to zero). For each pair, print the sequence from the smallest to the 
