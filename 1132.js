@@ -4,15 +4,27 @@ let inputs = `100
 let lines = inputs.split('\n');
 
 let sum = 0;
+let x = Number(lines[0])
+let y = Number(lines[1])
+let z;
 
-for (let i = Number(lines[0]); i <= Number(lines[1]); i++) {
-    let reminderNumber = i % 13;
-    if (reminderNumber !== 0) {
+if (x < y) {
+    x = x;
+    y = y;
+}else{
+    z = x;
+    x = y;
+    y = z;
+}
+
+for (let i = x; i <= y; i++) {
+    if (i % 13 !== 0) {
         sum += i;
     }
 }
 
 console.log(sum);
+
 
 // Write a program that reads two integer numbers X and Y and calculate the sum of all number not divisible by 13 between them, including both.
 
