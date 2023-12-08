@@ -6,7 +6,12 @@ let input = `5 2
 let lines = input.split('\n');
 
 for (let i = 0; i < lines.length; i++) {
-   
+   let num = '';
+   let line = lines[i].split(' ');
+   let m = Number(line[0]);
+   let n = Number(line[1]);
+   let numTotal = 0;
+
 }
 
 // Read an undetermined number of pairs values M and N (stop when any of these values is less or equal to zero). For each pair, print the sequence from the smallest to the 
