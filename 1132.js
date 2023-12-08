@@ -6,7 +6,10 @@ let lines = inputs.split('\n');
 let sum = 0;
 
 for (let i = Number(lines[0]); i <= Number(lines[1]); i++) {
-    
+    let reminderNumber = i % 13;
+    if (reminderNumber !== 0) {
+        sum += i;
+    }
 }
 
 
