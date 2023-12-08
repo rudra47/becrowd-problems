@@ -8,6 +8,16 @@ let input = `3 2
 
 let lines = input.split("\n");
 
+let grenalCount = 0;
+let interWon = 0
+let gremioWon = 0
+let draw = 0;
+let num;
+
+for (i = 0; i < lines.length; i++) {
+    
+}
+
 
 // The Federação Gaúcha de Futebol invited you to write a program to present a statistical result of several GRENAIS. Write a program that read the number of goals scored by Inter 
 // and the number of goals scored by Gremio in a GRENAL. Write the message "Novo grenal (1-sim 2-nao)" and request a response. If the answer is 1, two new numbers must be read 
