@@ -21,6 +21,9 @@ for (let index = 0; index < lines.length; index++) {
         diesel++;
     }
     
+    if (num === 4) {
+        break;
+    }
 }
 
 
