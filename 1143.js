@@ -17,6 +17,7 @@ if (n > 1 && n < 1000) {
                 output += a + ' '; 
             }
         }
+        console.log(output);
     }
 }
 
