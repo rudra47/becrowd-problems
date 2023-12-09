@@ -6,11 +6,16 @@ let lines = input.split('\n');
 let x = Number(lines[0]);
 let y = Number(lines[1]);
 
-for (let index = x; index < y; index++) {
+if (x > y) {
+    let a = x;
+    x = y;
+    y = a;
+}
+
+for (let index = x+1; index < y; index++) {
     if (index % 5 === 2 || index % 5 === 3) {
         console.log(index);
     }
-    
 }
 
 //Write a program that reads two integer numbers X and Y. Print all numbers between X and Y which dividing it by 5 the rest is equal to 2 or equal to 3.
