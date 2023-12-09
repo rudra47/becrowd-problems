@@ -11,6 +11,10 @@ let alcohol = 0;
 let gasoline = 0;
 let diesel = 0;
 
+for (let index = 0; index < lines.length; index++) {
+    
+}
+
 
 
 // A gas station wants to determine which of their products is the preference of their customers. Write a program to read the type of fuel 
