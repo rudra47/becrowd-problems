@@ -13,7 +13,9 @@ let diesel = 0;
 
 for (let index = 0; index < lines.length; index++) {
     const num = Number(lines[index]);
-    
+    if (num === 1) {
+        alcohol++;
+    }
     
 }
 
