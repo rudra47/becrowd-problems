@@ -6,6 +6,9 @@ let lines = input.split('\n');
 let x = Number(lines[0]);
 let y = Number(lines[1]);
 
+for (let index = x; index < y; index++) {
+    
+}
 
 //Write a program that reads two integer numbers X and Y. Print all numbers between X and Y which dividing it by 5 the rest is equal to 2 or equal to 3.
 
