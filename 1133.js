@@ -7,6 +7,9 @@ let x = Number(lines[0]);
 let y = Number(lines[1]);
 
 for (let index = x; index < y; index++) {
+    if (index % 5 === 2 || index % 5 === 3) {
+        
+    }
     
 }
 
