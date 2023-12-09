@@ -9,9 +9,9 @@ for (let index = 0; index < n; index++) {
     let output = '';
     for (let j = 1; j <= 4; j++) {
         if (j == 4) {
-            output += ' PUM'
+            output += 'PUM'
         }else{
-            output += ' '+count
+            output += count+' '
         }
         count++;
     }
