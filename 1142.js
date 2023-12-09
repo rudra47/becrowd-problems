@@ -5,6 +5,9 @@ let lines = input.split('\n');
 let n = Number(lines[0]);
 
 let count = 1;
+for (let index = 0; index < n; index++) {
+    
+}
 
 
 // Write a program that reads an integer N. This N is the number of output lines printed by this program.
