@@ -1,5 +1,12 @@
 // Squared and Cubic
+let input = `5`;
+let lines = input.split('\n');
 
+let n = Number(lines[0]);
+
+if (n > 1 && n < 1000) {
+    
+}
 
 // Write a program that reads an integer N (1 < N < 1000). This N is the number of output lines printed by this program.
 
