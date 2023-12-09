@@ -26,6 +26,10 @@ for (let index = 0; index < lines.length; index++) {
     }
 }
 
+console.log(`MUITO OBRIGADO
+Alcool: ${alcohol}
+Gasolina: ${ gasoline}
+Diesel: ${diesel}`);
 
 
 // A gas station wants to determine which of their products is the preference of their customers. Write a program to read the type of fuel 
