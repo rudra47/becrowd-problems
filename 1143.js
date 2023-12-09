@@ -9,7 +9,8 @@ if (n > 1 && n < 1000) {
         let a = 1;
         let output = '';
         for (let j = 1; j <= 3; j++) {
-            
+            a = a * i;
+    
         }
     }
 }
