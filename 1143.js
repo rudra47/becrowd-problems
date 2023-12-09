@@ -11,6 +11,11 @@ if (n > 1 && n < 1000) {
         for (let j = 1; j <= 3; j++) {
             a = a * i;
     
+            if (j === 3) {
+                output += a; 
+            }else{
+                output += a + ' '; 
+            }
         }
     }
 }
