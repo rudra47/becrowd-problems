@@ -51,6 +51,7 @@ Diesel: ${diesel}`);
 // 2
 // 4
 
+// Output Sample
 // MUITO OBRIGADO
 // Alcool: 1
 // Gasolina: 2
