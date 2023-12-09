@@ -1,4 +1,15 @@
 // Type of Fuel
+let input = `8
+1
+7
+2
+2
+4`;
+let lines = input.split('\n');
+
+let alcohol = 0;
+let gasoline = 0;
+let diesel = 0;
 
 
 
