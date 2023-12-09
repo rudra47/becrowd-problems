@@ -17,6 +17,8 @@ for (let index = 0; index < lines.length; index++) {
         alcohol++;
     }else if (num === 2) {
         gasoline++;
+    }else if (num === 3) {
+        diesel++;
     }
     
 }
