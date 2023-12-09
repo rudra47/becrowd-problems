@@ -6,7 +6,10 @@ let n = Number(lines[0]);
 
 let count = 1;
 for (let index = 0; index < n; index++) {
-    
+    let output = '';
+    for (let j = 1; j <= 4; j++) {
+        
+    }
 }
 
 
