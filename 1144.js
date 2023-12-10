@@ -1,8 +1,12 @@
 // Logical Sequence
-let input = ``;
+let input = `5`;
 let lines = input.split('\n');
 
 let n = Number(lines[0]);
+
+for (let i = 1; i <= n; i++) {
+    
+}
 
 
 // Write a program that reads an integer N. N * 2 lines must be printed by this program according to the example below. For numbers with more 
