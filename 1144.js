@@ -1,8 +1,38 @@
 // Logical Sequence
-let input = ``;
+let input = `5`;
 let lines = input.split('\n');
 
 let n = Number(lines[0]);
+
+for (let i = 1; i <= n; i++) {
+    let output = '';
+    let output2 = '';
+    let square = 0;
+    let cubic = 0;
+
+    for (let j = 1; j <= 3; j++) {
+        if (j === 1) {
+            output += i+' '
+
+            output2 += i+' '
+        }else if(j === 2){
+            square = i * i
+            output += square+" "
+
+            let square2 = square + 1;
+            output2 +=  square2 + " "
+        }else{
+            cubic = i * i * i;
+            output += cubic
+
+            let cubic2 = cubic + 1;
+            output2 += cubic2
+        }
+    }
+
+    console.log(output);
+    console.log(output2);
+}
 
 
 // Write a program that reads an integer N. N * 2 lines must be printed by this program according to the example below. For numbers with more 
