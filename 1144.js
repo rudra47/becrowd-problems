@@ -33,6 +33,8 @@ for (let i = 1; i <= n; i++) {
         }
     }
 
+    console.log(output);
+    console.log(output2);
 }
 
 
