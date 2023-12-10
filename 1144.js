@@ -10,6 +10,10 @@ for (let i = 1; i <= n; i++) {
     let square = 0;
     let cubic = 0;
 
+    for (let j = 1; j <= 3; j++) {
+        
+    }
+
 }
 
 
