@@ -13,30 +13,26 @@ for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= 3; j++) {
         if (j === 1) {
             output += i+' '
+
+            output2 += i+' '
         }else if(j === 2){
             square = i * i
             output += square+" "
+
+            let square2 = square + 1;
+            output2 +=  square2 + " "
         }else{
             cubic = i * i * i;
             output += cubic
-        }
-    }
-    for (let k = 1; k <= 3; k++) {
-        if (k === 1) {
-            output2 += i+' '
-        }else if(k === 2){
-            square = square + 1
-            output2 += square+" "
-        }else{
-            cubic = cubic + 1;
-            output2 += cubic
+
+            let cubic2 = cubic + 1;
+            output2 += cubic2
         }
     }
 
     console.log(output);
     console.log(output2);
 }
-
 
 
 // Write a program that reads an integer N. N * 2 lines must be printed by this program according to the example below. For numbers with more 
