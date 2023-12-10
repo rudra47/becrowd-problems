@@ -22,7 +22,15 @@ for (let i = 1; i <= n; i++) {
         }
     }
     for (let k = 1; k <= 3; k++) {
-        
+        if (k === 1) {
+            output2 += i+' '
+        }else if(k === 2){
+            square = square + 1
+            output2 += square+" "
+        }else{
+            cubic = cubic + 1;
+            output2 += cubic
+        }
     }
 
 }
