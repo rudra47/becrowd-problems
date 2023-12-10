@@ -21,6 +21,9 @@ for (let i = 1; i <= n; i++) {
             output += cubic
         }
     }
+    for (let k = 1; k <= 3; k++) {
+        
+    }
 
 }
 
