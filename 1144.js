@@ -11,7 +11,15 @@ for (let i = 1; i <= n; i++) {
     let cubic = 0;
 
     for (let j = 1; j <= 3; j++) {
-        
+        if (j === 1) {
+            output += i+' '
+        }else if(j === 2){
+            square = i * i
+            output += square+" "
+        }else{
+            cubic = i * i * i;
+            output += cubic
+        }
     }
 
 }
