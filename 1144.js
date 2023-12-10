@@ -5,7 +5,11 @@ let lines = input.split('\n');
 let n = Number(lines[0]);
 
 for (let i = 1; i <= n; i++) {
-    
+    let output = '';
+    let output2 = '';
+    let square = 0;
+    let cubic = 0;
+
 }
 
 
