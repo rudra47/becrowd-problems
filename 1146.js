@@ -3,6 +3,8 @@ let input = `5
 10
 3
 0`;
+let lines = input.split('\n');
+
 
 // Your program must read an integer X indefinited times (the program must stop when X is equal to zero). For each X print the sequence 
 // from 1 to X, with one space between each one of these numbers.
