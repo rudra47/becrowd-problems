@@ -2,6 +2,9 @@
 let input = `3 99`;
 let lines = input.split(' ');
 
+let x = Number(lines[0]);
+let y = Number(lines[1]);
+
 
 
 
