@@ -9,7 +9,11 @@ var cnt = 0;
 
 for (var i = 1; i <= y; i++){
     cnt += 1;
-    
+    if (cnt == x){
+        
+    }else{
+        
+    }
 }
 
 // Write an program that reads two numbers X and Y (X < Y). After this, show a sequence of 1 to y, passing to the next line to each X numbers.
