@@ -10,9 +10,10 @@ var cnt = 0;
 for (var i = 1; i <= y; i++){
     cnt += 1;
     if (cnt == x){
-        
+        console.log(i);
+        cnt = 0;
     }else{
-        
+        process.stdout.write(i+ " ");
     }
 }
 
