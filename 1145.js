@@ -8,6 +8,7 @@ let y = Number(lines[1]);
 var cnt = 0;
 
 for (var i = 1; i <= y; i++){
+    cnt += 1;
     
 }
 
