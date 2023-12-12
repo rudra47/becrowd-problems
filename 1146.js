@@ -1,23 +1,21 @@
 //Growing Sequences
 let input = `5
 10
-3
+100000
 0`;
 let lines = input.split('\n');
 
-for (let i = 0; i < lines.length; i++) {
-    const n = lines[i];
+while(true) {
+    const n = Number(lines.shift())
     
-    for (let j = 1; j <= n; j++) {
-        if (j == n){
-            console.log(j);
-        }else{
-            process.stdout.write(j+ " ");
-        }
-    }
-
     if (n === 0) {
         break;
+    }else{
+        let j;
+        for (j = 1; j < n; j++) 
+            process.stdout.write(j+ " ");
+        
+        console.log(j);
     }
 }
 
