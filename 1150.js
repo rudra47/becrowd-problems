@@ -13,6 +13,9 @@ while (x >= z) {
     z = parseInt(lines.shift());
 }
 
+let count = 0;
+let sum = 0;
+
 
 
 //write a program that reads two integers: X and Z (Z must be read as many times as necessary, until a number greater than X is read). Count how many integers must be 
