@@ -1,17 +1,17 @@
 //Summing Consecutive Integers
 let input = `3 -1 0 -2 2`;
 
-var line = input.split(' ');
+let line = input.split(' ');
 
-var a = parseInt(line.shift());
-var n = parseInt(line.shift());
+let a = parseInt(line.shift());
+let n = parseInt(line.shift());
 
-while(n <= 0){ 
+while(n <= 0)
     n = parseInt(line.shift());
-}
 
-var sum = 0;
-for (var i = 0; i < n; i++){
+
+let sum = 0;
+for (let i = 0; i < n; i++){
     sum += i + a;
 }
 console.log(sum);
