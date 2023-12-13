@@ -1,4 +1,4 @@
-//
+//  Exceeding Z
 let input = `21
 21
 15
@@ -22,6 +22,7 @@ while (sum < z) {
     x++;
 }
 
+console.log(count);
 
 
 //write a program that reads two integers: X and Z (Z must be read as many times as necessary, until a number greater than X is read). Count how many integers must be 
