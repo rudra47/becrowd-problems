@@ -6,6 +6,11 @@ var line = input.split(' ');
 var a = parseInt(line.shift());
 var n = parseInt(line.shift());
 
+while(n <= 0){ 
+    n = parseInt(line.shift());
+}
+
+
 
 
 
