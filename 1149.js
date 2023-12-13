@@ -1,4 +1,4 @@
-//
+//Summing Consecutive Integers
 let input = `3 -1 0 -2 2`;
 
 var line = input.split(' ');
@@ -15,13 +15,6 @@ for (var i = 0; i < n; i++){
     sum += i + a;
 }
 console.log(sum);
-
-
-
-
-
-
-
 
 
 // Write an algorithm to read a value A and a value N. Print the sum of N numbers from A (inclusive). While N is negative or ZERO, a 
