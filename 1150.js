@@ -1,10 +1,13 @@
 //
-let input = `3
-1
-20`;
+let input = `21
+21
+15
+30`;
 
 let lines = input.split('\n');
 
+let x = parseInt(lines.shift());
+let z = parseInt(lines.shift());
 
 
 
