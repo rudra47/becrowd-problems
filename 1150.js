@@ -15,6 +15,9 @@ while (x >= z) {
 
 let count = 0;
 let sum = 0;
+while (sum < z) {
+    
+}
 
 
 
