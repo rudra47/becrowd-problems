@@ -9,6 +9,10 @@ let lines = input.split('\n');
 let x = parseInt(lines.shift());
 let z = parseInt(lines.shift());
 
+while (x >= z) {
+    z = parseInt(lines.shift());
+}
+
 
 
 //write a program that reads two integers: X and Z (Z must be read as many times as necessary, until a number greater than X is read). Count how many integers must be 
