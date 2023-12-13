@@ -3,6 +3,8 @@ let input = `3 -1 0 -2 2`;
 
 var line = input.split(' ');
 
+var a = parseInt(line.shift());
+var n = parseInt(line.shift());
 
 
 
