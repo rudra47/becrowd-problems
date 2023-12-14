@@ -1,5 +1,5 @@
 //Easy Fibonacci
-let input = `5`;
+let input = `20`;
 let lines = input.split('\n');
 
 let n = Number(lines[0]);
@@ -9,15 +9,20 @@ let prev1 = 0;
 let prev2 = 1;
 let fibonacci = 0;
 
-//0 1 1 2 3 5 8 13........
-for (let i = 0; i < n; i++) {
-    fibonacci += count;
-    prev1 = fibonacci;
-    prev2 = 
+while (1) {
+    if (count <= 1) {
+        fibonacci = count;
+    }else{
+       fibonacci = prev1 + prev2;
+       prev1 = prev2;
+       prev2 = fibonacci
+    }
 
+    if (fibonacci >= n) {
+        break;
+    }
     process.stdout.write(fibonacci+ " ");
     count++;
-
 }
 
 
