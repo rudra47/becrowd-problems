@@ -6,30 +6,19 @@ let n = Number(lines[0]);
 
 let count = 0;
 let prev1 = 0;
-let prev2 = 0;
+let prev2 = 1;
 let fibonacci = 0;
 
-function test (num){
-    if (num>n) {
-        return;
-    }
+//0 1 1 2 3 5 8 13........
+for (let i = 0; i < n; i++) {
+    fibonacci += count;
+    prev1 = fibonacci;
+    prev2 = 
+
     process.stdout.write(fibonacci+ " ");
-
-    fibonacci = prev1 + prev2;
-
-    prev1 = prev2;
-    prev2 = count;
-
-    // console.log(prev1, prev2, '~~~~~');
-
-    
     count++;
 
-    test(count);
 }
-
-test(n);
-
 
 
 // The following sequence of numbers 0 1 1 2 3 5 8 13 21 ... is known as the Fibonacci Sequence. Thereafter, each number after the first 2 is equal to the sum of 
