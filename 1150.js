@@ -1,4 +1,4 @@
-//  Exceeding Z
+// Exceeding Z
 let input = `21
 21
 15
@@ -25,7 +25,7 @@ while (sum < z) {
 console.log(count);
 
 
-//write a program that reads two integers: X and Z (Z must be read as many times as necessary, until a number greater than X is read). Count how many integers must be 
+// write a program that reads two integers: X and Z (Z must be read as many times as necessary, until a number greater than X is read). Count how many integers must be 
 // summed in sequence (starting at and including X) so that the sum exceeds Z the minimum possible and writes this number.
 
 // The input may have, for example, the numbers ​​21 21 15 30. In this case, the number 21 is assumed for X, The numbers 21 and 15 must be ignored because they are 
