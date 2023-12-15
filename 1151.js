@@ -9,7 +9,6 @@ let prev1 = 0;
 let prev2 = 1;
 let fibonacci = 0;
 
-//0 1 1 2 3 5 8 13........
 for (let i = 0; i < n; i++) {
     fibonacci += count;
     prev1 = fibonacci;
@@ -17,7 +16,6 @@ for (let i = 0; i < n; i++) {
 
     process.stdout.write(fibonacci+ " ");
     count++;
-
 }
 
 
