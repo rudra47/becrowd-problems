@@ -5,6 +5,11 @@ let lines = input.split('\n');
 let n = Number(lines[0]);
 let factorial = 1;
 
+for (let i = n; i > 0; i--) {
+    factorial *= i;    
+}
+
+
 // Read a value N. Calculate and write its corresponding factorial. Factorial of N = N * (N-1) * (N-2) * (N-3) * ... * 1.
 
 // Input
