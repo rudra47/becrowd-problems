@@ -9,6 +9,7 @@ for (let i = n; i > 0; i--) {
     factorial *= i;    
 }
 
+console.log(factorial);
 
 // Read a value N. Calculate and write its corresponding factorial. Factorial of N = N * (N-1) * (N-2) * (N-3) * ... * 1.
 
