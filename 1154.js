@@ -19,6 +19,8 @@ for (let i = 0; i < lines.length; i++) {
         break;
 }
 
+let average = sum / count;
+
 
 // Write an algorithm to read an undeterminated number of data, each containing an individual's age. The final data, which will not enter in the calculations, contains the value of a negative age. Calculate and print the average age of this group of individuals.
 
