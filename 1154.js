@@ -10,7 +10,13 @@ let sum = 0;
 let count = 0;
 
 for (let i = 0; i < lines.length; i++) {
+    let number = Number(lines[i]);
     
+    if (number > 0) {
+        sum += number;
+        count++;
+    }else
+        break;
 }
 
 
