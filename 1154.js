@@ -1,4 +1,14 @@
 // Ages
+let input = `34
+56
+44
+23
+-2`;
+let lines = input.split('\n');
+
+let sum = 0;
+let count = 0;
+
 
 
 
