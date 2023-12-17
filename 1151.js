@@ -8,21 +8,6 @@ let prev1 = 0;
 let prev2 = 1;
 let fibonacci = 0;
 
-// while (1) {
-//     if (count <= 1) {
-//         fibonacci = count;
-//     }else{
-//        fibonacci = prev1 + prev2;
-//        prev1 = prev2;
-//        prev2 = fibonacci
-//     }
-
-//     if (fibonacci >= n) {
-//         break;
-//     }
-//     process.stdout.write(fibonacci+ " ");
-//     count++;
-// }
 for (let i = 0; i < n; i++) {
     if (i <= 1) {
         fibonacci = i;
