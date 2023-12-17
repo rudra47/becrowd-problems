@@ -8,7 +8,6 @@ for (let i = 1; i <= 100; i++) {
 console.log(result.toFixed(2));
 
 
-
 // Write an algorithm to calculate and write the value of S, S being given by:
 // S = 1 + 1/2 + 1/3 + … + 1/100
 
