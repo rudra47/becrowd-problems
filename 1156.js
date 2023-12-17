@@ -1,14 +1,13 @@
 // S Sequence II
-// S = 1 + 3/2 + 5/4 + 7/8 + ... + 39/?
 
-let result = 0;
-let count = 1;
+let result = 1;
+let count = 2;
 
-for (let i = 1; i < 40; i *= 2) {
-    process.stdout.write(`${count}/${i} + `);
-    result += count / i;
-
-    count = count + 2;
+for (let i = 3; i < 40; i = i+2) {
+    process.stdout.write(`${i}/${count} + `);
+    result += i / count;
+    
+    count *= 2;
 }
 console.log(result.toFixed(2));
 
