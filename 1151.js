@@ -4,18 +4,24 @@ let lines = input.split('\n');
 
 let n = Number(lines[0]);
 
-let count = 0;
 let prev1 = 0;
 let prev2 = 1;
 let fibonacci = 0;
 
 for (let i = 0; i < n; i++) {
-    fibonacci += count;
-    prev1 = fibonacci;
-    prev2 = 
+    if (i <= 1) {
+        fibonacci = i;
+    }else{
+        fibonacci = prev1 + prev2;
+        prev1 = prev2;
+        prev2 = fibonacci;
+    }
 
-    process.stdout.write(fibonacci+ " ");
-    count++;
+    if (i === n - 1) {
+        console.log(fibonacci);
+    }else{
+        process.stdout.write(fibonacci+ " ");
+    } 
 }
 
 
