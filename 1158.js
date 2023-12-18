@@ -11,6 +11,8 @@ for (let i = 1; i <= n; i++) {
     let x = Number(testCase[0]);
     let y = Number(testCase[1]);
 
+    let sum = 0, count = 1;
+
 }
 
 
