@@ -19,6 +19,7 @@ for (let i = 1; i <= n; i++) {
             sum += x;
             count++;
         }
+        x++;
     }
 }
 
