@@ -4,7 +4,6 @@ let result = 1;
 let count = 2;
 
 for (let i = 3; i < 40; i = i+2) {
-    process.stdout.write(`${i}/${count} + `);
     result += i / count;
     
     count *= 2;
