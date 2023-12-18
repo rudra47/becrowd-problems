@@ -21,6 +21,7 @@ for (let i = 1; i <= n; i++) {
         }
         x++;
     }
+    console.log(sum);
 }
 
 
