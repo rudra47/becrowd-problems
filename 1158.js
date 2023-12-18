@@ -8,6 +8,8 @@ let n = Number(lines[0]);
 
 for (let i = 1; i <= n; i++) {
     const testCase = lines[i].split(' ');
+    let x = Number(testCase[0]);
+    let y = Number(testCase[1]);
 
 }
 
