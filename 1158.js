@@ -15,7 +15,10 @@ for (let i = 1; i <= n; i++) {
 
     while (count <= y) {
         let divisor = x % 2;
-        
+        if (divisor !== 0) {
+            sum += x;
+            count++;
+        }
     }
 }
 
