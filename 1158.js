@@ -1,4 +1,13 @@
 //Sum of Consecutive Odd Numbers III
+let input = `2
+4 3
+11 2`;
+let lines = input.split('\n');
+
+let n = Number(lines[0]);
+
+
+
 
 
 // Read an integer N that is the number of test cases that follows. Each test case contains two integers X and Y. Print one output 
