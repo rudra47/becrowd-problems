@@ -2,6 +2,9 @@
 let input = `6`;
 let lines = input.split('\n');
 
+let n = Number(lines[0]);
+
+
 
 // Read an integer N and compute all its divisors.
 
