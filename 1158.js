@@ -6,6 +6,10 @@ let lines = input.split('\n');
 
 let n = Number(lines[0]);
 
+for (let i = 1; i <= n; i++) {
+    
+}
+
 
 
 
