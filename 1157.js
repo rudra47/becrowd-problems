@@ -1,4 +1,6 @@
 //Divisors I
+let input = `6`;
+let lines = input.split('\n');
 
 
 // Read an integer N and compute all its divisors.
