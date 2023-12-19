@@ -1,6 +1,29 @@
 // Sum of Consecutive Even Numbers
+let input = `4
+11
+0`;
+let lines = input.split('\n');
 
+let number, x=0;
+while (true) {
+    number = Number(lines[x]);
+    res = 0;
 
+    if (number === 0) {
+        break;
+    }
+
+    for (let i = 0; i < 5; ) {
+        if (number % 2 === 0) {
+            res += number;
+            i++;
+        }
+        number++;
+    }
+    console.log(res);
+
+    x++;
+}
 
 
 // The program must read an integer X indefinite times (stop when X=0). For each X, print the sum of five consecutive even numbers 
