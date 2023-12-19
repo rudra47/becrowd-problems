@@ -8,6 +8,9 @@ let input = `6
 62422 484317 3.1 1.0`;
 let lines = input.split('\n');
 
+let num = Number(lines[0]);
+
+
 
 
 //Mariazinha wants to solve an interesting problem. Given the population and growing rate of 2 cities (A and B), she would like to know how many years would 
