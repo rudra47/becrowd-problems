@@ -1,16 +1,57 @@
 // Population Increase
-let input = `6
-100 150 1.0 0
-90000 120000 5.5 3.5
-56700 72000 5.2 3.0
-123 2000 3.0 2.0
-100000 110000 1.5 0.5
-62422 484317 3.1 1.0`;
+let input = `1
+100 1000 3.1 1.0`;
 let lines = input.split('\n');
 
-let num = Number(lines[0]);
+let t = Number(lines[0]);
 
+if (t >= 1 && t <= 3000) {
+    let x = 1;
+    while (x <= t) {
+        let testCase = lines[x].split(' ');
+        let pa = Number(testCase[0]);
+        let pb = Number(testCase[1]);
+        let g1 = Number(testCase[2]);
+        let g2 = Number(testCase[3]);
+    
+        if ((pa >= 100 && pa < 1000000) && (pb >= 100 && pb < 1000000) && (g1 >= 0.1 && g1 < 10.0) && (g2 >= 0.0 && g2 <= 10.0)) {
+            if ((pa > pb)) {
+                let z = pa;
+                pa = pb;
+                pb = z;
+            }
+            if (g1 < g2) {
+                let z = g1;
+                g1 = g2;
+                g2 = z;
+            }
+            
+            let paYear = 1, pbYear = 1, paGrowingRate = 0, pbGrowingRate = 0;
+            while (paYear < 5) {
+                paGrowingRate += pa * g1;
+                pbGrowingRate += pb * g2;
 
+                console.log(paGrowingRate, pbGrowingRate);
+
+                paYear++;
+                pbYear++;
+                
+                if (paGrowingRate > pbGrowingRate) {
+                    break;
+                }
+            }
+
+            console.log(paYear, pbYear);
+
+        }else
+            break;
+    
+    
+        // console.log(testCase, pa, pb, g1, g2);
+    
+        x++;
+    }
+}
 
 
 //Mariazinha wants to solve an interesting problem. Given the population and growing rate of 2 cities (A and B), she would like to know how many years would 
