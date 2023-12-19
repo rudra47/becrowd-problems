@@ -1,5 +1,13 @@
 // Sum of Consecutive Even Numbers
+let input = `4
+11
+0`;
+let lines = input.split('\n');
 
+let number, x=0;
+while (true) {
+    
+}
 
 
 
