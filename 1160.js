@@ -8,16 +8,12 @@ let input = `6
 62422 484317 3.1 1.0`;
 let lines = input.split('\n');
 
-let t = Number(lines[0]);
+let t = Number(lines.shift());
 
 if (t >= 1 && t <= 3000) {
     let x = 1;
     while (x <= t) {
-        let testCase = lines[x].split(' ');
-        let pa = Number(testCase[0]);
-        let pb = Number(testCase[1]);
-        let g1 = Number(testCase[2]);
-        let g2 = Number(testCase[3]);
+        let [pa, pb, g1, g2] = lines.shift().split(' ').map(y => Number(y));
         let message = 'Mais de 1 seculo.';
 
         g1 /= 100;
