@@ -18,30 +18,27 @@ if (t >= 1 && t <= 3000) {
         let pb = Number(testCase[1]);
         let g1 = Number(testCase[2]);
         let g2 = Number(testCase[3]);
+        let message = 'Mais de 1 seculo.';
 
         g1 /= 100;
         g2 /= 100;
     
-        let paYear = 0, pbYear = 0, paGrowingRate = pa, pbGrowingRate = pb;
+        let paYear = 0;
         while (paYear <= 100) {
-            let paRate = Math.floor(paGrowingRate * g1);
-            let pbRate = Math.floor(pbGrowingRate * g2);
-
-            paGrowingRate += paRate;
-            pbGrowingRate += pbRate;
+            pa += Math.floor(pa * g1);
+            pb += Math.floor(pb * g2);
 
             paYear++;
-            pbYear++;
             
-            if (paGrowingRate > pbGrowingRate) {
+            if (pa > pb) {
                 break;
             }
         }
 
         if (paYear <= 100) 
-            console.log(paYear+' anos.');
-        else
-            console.log("Mais de 1 seculo.");
+            message = paYear+' anos.';
+
+        console.log(message);
 
         x++;
     }
