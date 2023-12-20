@@ -6,6 +6,7 @@ let input = `6
 123 2000 3.0 2.0
 100000 110000 1.5 0.5
 62422 484317 3.1 1.0`;
+
 let lines = input.split('\n');
 
 let t = Number(lines.shift());
