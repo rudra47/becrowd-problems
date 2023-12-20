@@ -41,6 +41,7 @@ if (t >= 1 && t <= 3000) {
     }
 }
 
+// Problem
 
 //Mariazinha wants to solve an interesting problem. Given the population and growing rate of 2 cities (A and B), she would like to know how many years would 
 // be necessary to the smaller city (always A) to be greater than the larger city (always B) in population. Of course, she only wants to know the result for cities 
