@@ -36,10 +36,6 @@ for (let i = 1; i <= n; i++) {
 
 // Input Sample	Output Sample
 // 3
-// 8
-// 51
-// 7
-
-// 8 nao eh primo
-// 51 nao eh primo
-// 7 eh primo
+// 8            8 nao eh primo
+// 51           51 nao eh primo
+// 7            7 eh primo
