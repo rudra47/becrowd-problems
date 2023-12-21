@@ -1,4 +1,4 @@
-//Triangle
+//Multiples
 var input = `6 24`;
 var lines = input.split(' ');
 

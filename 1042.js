@@ -1,4 +1,4 @@
-//Snack
+//Simple Sort
 var input = `-14 21 7`;
 var lines = input.split(' ');
 
