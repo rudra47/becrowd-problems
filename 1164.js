@@ -18,11 +18,10 @@ for (let i = 1; i <= n; i++) {
         x++;
     }
 
-    if (sum === testCase) {
+    if (sum === testCase) 
         console.log(`${testCase} eh perfeito`);
-    }else{
+    else
         console.log(`${testCase} nao eh perfeito`);
-    }
 }
 
 
