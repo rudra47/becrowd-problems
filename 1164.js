@@ -9,13 +9,10 @@ let n = lines.shift();
 for (let i = 1; i <= n; i++) {
     let testCase = Number(lines.shift());
     
-    let x = 1;
     let sum = 0;
-    while (x < testCase) {
-        if (testCase % x === 0) {
+    for (let x = 1; x < testCase; x++) {
+        if (testCase % x === 0) 
             sum += x
-        }
-        x++;
     }
 
     if (sum === testCase) 
