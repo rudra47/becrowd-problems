@@ -5,6 +5,23 @@ let input = `3
 7`;
 let lines = input.split('\n');
 
+let n = Number(lines.shift());
+for (let i = 1; i <= n; i++) {
+    let testCase = lines.shift();
+
+    let count = 0;
+    for (let j = 1; j <= testCase; j++) {
+        if (testCase % j === 0) {
+            count++;
+        }
+    }    
+    
+    if (count === 2)
+        console.log(testCase + " eh primo");
+    else
+        console.log(testCase + " nao eh primo");
+
+}
 
 
 
