@@ -1,5 +1,29 @@
 //Perfect Number
+let input = `3
+6
+5
+28`;
+let lines = input.split('\n');
 
+let n = lines.shift();
+for (let i = 1; i <= n; i++) {
+    let testCase = Number(lines.shift());
+    
+    let x = 1;
+    let sum = 0;
+    while (x < testCase) {
+        if (testCase % x === 0) {
+            sum += x
+        }
+        x++;
+    }
+
+    if (sum === testCase) {
+        console.log(`${testCase} eh perfeito`);
+    }else{
+        console.log(`${testCase} nao eh perfeito`);
+    }
+}
 
 
 
