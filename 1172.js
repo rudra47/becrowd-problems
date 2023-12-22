@@ -18,16 +18,6 @@ for (let j = 0; j < list.length; j++) {
     console.log(`X[${j}] = ${Number(list[j])}`);
 }
 
-
-// let lista = [];
-// for(var i = 0; i < 10; i++){
-//     let n = Number(lines.shift());
-//     n === 0 || n < 0 ? lista.push(1) : lista.push(n);
-// }
-// for(var l = 0; l < 10; l++){
-//     console.log(`X[${l}] = ${lista[l]}`);
-// }
-
 // Read an array X[10]. After, replace every null or negative number of X ​by 1. Print all numbers stored in the array X.
 
 // Input
