@@ -1,5 +1,4 @@
 // S Sequence II
-
 let result = 1;
 let count = 2;
 
