@@ -2,7 +2,6 @@
 let input = ``;
 let lines = input.split();
 
-let 
 
 
 // In this problem, your task is to read an array A[100]. At the end, print all array positions that store a number less or equal to 10 and the number stored in that 
