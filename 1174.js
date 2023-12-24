@@ -1,7 +1,15 @@
 // Array Selection I
-let input = ``;
-let lines = input.split();
+let input = `0
+-5
+63
+-8.5`;
+let lines = input.split('\n');
 
+for (let i = 0; i < 100; i++) {
+    if (Number(lines[i]) <= 10) {
+        console.log(`A[${i}] = ${Number(lines[i]).toFixed(1)}`);
+    }
+}
 
 
 // In this problem, your task is to read an array A[100]. At the end, print all array positions that store a number less or equal to 10 and the number stored in that 
