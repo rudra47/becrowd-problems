@@ -1,4 +1,6 @@
 //Easy Fibonacci
+const start = Date.now();
+
 let input = `5`;
 let lines = input.split('\n');
 
@@ -23,7 +25,9 @@ for (let i = 0; i < n; i++) {
         process.stdout.write(fibonacci+ " ");
     } 
 }
+const end = Date.now();
 
+console.log(`Execution time: ${end - start} ms`);
 
 // The following sequence of numbers 0 1 1 2 3 5 8 13 21 ... is known as the Fibonacci Sequence. Thereafter, each number after the first 2 is equal to the sum of 
 // the previous two numbers. Write an algorithm that reads an integer N (N < 46) and that print the first N numbers of this sequence.
